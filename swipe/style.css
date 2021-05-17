@@ -1,0 +1,19 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li {
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    margin: 0 20px;
+    animation: slide 10s linear infinite;
+}
+
+#top li {
+    position: absolute;
+    left: -150px;
+    background-color: blue;
+}
