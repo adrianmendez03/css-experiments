@@ -1,0 +1,37 @@
+.build-container {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+}
+
+.build-container h2 {
+    margin: 0;
+}
+
+.build-container .body:hover {
+    opacity: 1;
+    max-height: 250px;
+    z-index: 1;
+}
+
+.build-container .body {
+    margin: 10px;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.5s;
+    z-index: -1;
+}
+
+.build-container .body ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    width: 200px;
+    margin: auto;
+}
+
+.build-container .body ul li {
+    width: 100px;
+}

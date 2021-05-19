@@ -9,7 +9,6 @@ li {
     height: 100px;
     transform: rotate(45deg);
     margin: 0 20px;
-    animation: slide 10s linear infinite;
 }
 
 #top li {

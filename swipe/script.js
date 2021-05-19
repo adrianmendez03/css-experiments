@@ -1,6 +1,7 @@
 $(() => {
 
     function loop (li) {
+        console.log(li)
         li.css({ left: '-150px' })
         li.animate({ left: '100%' }, 10000, 'linear', () => {
             loop(li)
